@@ -10,7 +10,6 @@ import AlignmentVerification from './pages/AlignmentVerification';
 import VerificationTrust from './pages/VerificationTrust';
 import WhoItsFor from './pages/WhoItsFor';
 import Ecosystem from './pages/Ecosystem';
-import GradiumOS from './pages/GradiumOS';
 import About from './pages/About';
 import Partner from './pages/Partner';
 import Impact from './pages/Impact';
@@ -40,7 +39,6 @@ const App: React.FC = () => {
             <Route path="/verification-trust" element={<VerificationTrust />} />
             <Route path="/who-its-for" element={<WhoItsFor />} />
             <Route path="/ecosystem" element={<Ecosystem />} />
-            <Route path="/gradium-os" element={<GradiumOS />} />
             <Route path="/about" element={<About />} />
             <Route path="/partner" element={<Partner />} />
             <Route path="/impact" element={<Impact />} />
