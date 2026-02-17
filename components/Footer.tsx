@@ -87,7 +87,7 @@ const Footer: React.FC = () => {
               <li><Link to="/who-its-for" style={linkStyle} className="footer-link">Employers</Link></li>
               <li><Link to="/who-its-for" style={linkStyle} className="footer-link">Institutions</Link></li>
               <li><Link to="/who-its-for" style={linkStyle} className="footer-link">Learners</Link></li>
-              <li><Link to="/gradium-os" style={linkStyle} className="footer-link">GradiumOS</Link></li>
+              <li><a href="https://gradium-os.vercel.app/" target="_blank" rel="noopener noreferrer" style={linkStyle} className="footer-link">GradiumOS</a></li>
             </ul>
           </div>
           <div style={{ gridColumn: 'span 2' }}>
