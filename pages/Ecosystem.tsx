@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -280,11 +281,11 @@ const Ecosystem: React.FC = () => {
                     Join Ecosystem <ArrowRight size={18} />
                   </PremiumButton>
                 </Link>
-                <Link to="/gradium-os" style={{ textDecoration: 'none' }}>
+                <a href="https://gradium-os.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                   <PremiumButton variant="white">
                     Explore OS
                   </PremiumButton>
-                </Link>
+                </a>
               </div>
             </motion.div>
 
@@ -337,7 +338,7 @@ const Ecosystem: React.FC = () => {
                 <div style={{ 
                     width: '56px', 
                     height: '56px', 
-                    backgroundColor: `${step.color}10`, 
+                    backgroundColor: `${step}10`, 
                     color: step.color, 
                     borderRadius: '16px', 
                     display: 'flex', 
