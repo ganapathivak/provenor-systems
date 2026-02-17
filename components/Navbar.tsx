@@ -119,7 +119,12 @@ const Navbar: React.FC = () => {
               </Link>
             ))}
             <div style={{ marginLeft: '12px' }}>
-              <Link to="/gradium-os" style={{ textDecoration: 'none' }}>
+              <a 
+                href="https://gradium-os.vercel.app/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                style={{ textDecoration: 'none' }}
+              >
                 <PremiumButton 
                   variant="dark" 
                   style={{ 
@@ -133,7 +138,7 @@ const Navbar: React.FC = () => {
                     Gradium<span style={{ color: theme.colors.secondary }}>OS</span>
                   </span>
                 </PremiumButton>
-              </Link>
+              </a>
             </div>
           </div>
           <button 
@@ -179,13 +184,19 @@ const Navbar: React.FC = () => {
             </Link>
           ))}
           <div style={{ marginTop: '12px' }}>
-            <Link to="/gradium-os" onClick={() => setIsMobileMenuOpen(false)} style={{ textDecoration: 'none' }}>
+            <a 
+              href="https://gradium-os.vercel.app/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              onClick={() => setIsMobileMenuOpen(false)} 
+              style={{ textDecoration: 'none' }}
+            >
               <PremiumButton style={{ width: '100%', textTransform: 'none' }}>
                 <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   Gradium<span style={{ color: theme.colors.secondary }}>OS</span>
                 </span>
               </PremiumButton>
-            </Link>
+            </a>
           </div>
         </div>
       )}
